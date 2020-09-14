@@ -1,0 +1,58 @@
+
+
+<div id="image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}" class="image-gallery">
+    <div id="gallery-sizer{% if include.id_number %}-{{ include.id_number }}{% endif %}" class="gallery-sizer"></div>
+
+
+
+
+    <section id="work" class="portfolio-mf sect-pt4 route">
+        <div class="container">
+            <div class="row">
+                {% assign count = 0 %}
+                {% for picture in include.gallery.pictures %}
+
+
+                <div class="image-wrapper">
+                    <a href="{{ site.url }}/CV/assets/works/{{ include.gallery.picture_path }}/{{ picture.original }}"
+                       data-responsive="{% for size in picture.sizes %} {{ site.url}}/CV/assets/works/{{ include.gallery.picture_path }}/{{ size }} {{ size | split: '-' | last | split: '.' | first | split: 'x' | first | strip }}{% unless forloop.last %},{% endunless %}{% endfor %}" class="image"
+                       {% if picture.title %} data-sub-html="<div class='lg-toolbar caption'><h4>{{ picture.title | escape }}</h4>{% if picture.caption %}<p>{{ picture.caption | escape }}</p>{% endif %}</div>" {% endif %}>
+
+                        <div>
+                            {% if count == 0 %}
+                            <div class="work-box">
+                                <a href="{{ site.url }}/CV/assets/works/{{ include.gallery.picture_path }}/{{ picture.thumbnail }}" data-lightbox="gallery-mf">
+                                    <div class="work-img">
+                                        <img src="{{ site.url }}/CV/assets/works/{{ include.gallery.picture_path }}/{{ picture.thumbnail }}" width="400dp" height="auto" alt="" class="img-fluid">
+                                    </div>
+
+                                </a>
+                            </div>
+                            {% assign count = count | plus: 1 %}
+                            {% else %}
+
+                            <div class="work-box" style="display: none;">
+                                <a href="{{ site.url }}/CV/assets/works/{{ include.gallery.picture_path }}/{{ picture.thumbnail }}" data-lightbox="gallery-mf">
+                                    <div class="work-img">
+                                        <img src="{{ site.url }}/CV/assets/works/{{ include.gallery.picture_path }}/{{ picture.thumbnail }}" width="400dp" height="auto" alt="" class="img-fluid">
+                                    </div>
+
+                                </a>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </a>
+                </div>
+
+
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</div>
+<script>
+    $(document).ready(function () {
+        $("p").removeClass("col-md-4  con");
+
+    });
+</script>

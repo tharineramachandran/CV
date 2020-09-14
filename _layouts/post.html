@@ -1,0 +1,94 @@
+---
+layout: default
+---
+<script src="https://kit.fontawesome.com/b364d99b0e.js" crossorigin="anonymous"></script>
+  <!--/ Section Blog-Single Star /-->
+  <section class="blog-wrapper sect-pt4" id="blog">
+  
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+                  <div class="post-box" >
+            <div class="post-thumb">
+              <img src="/CV/img/{{ page.img }}" class="img-fluid" alt="">
+            </div>
+            <div class="post-meta">
+              <h1 class="article-title"><h1 class="meta">{{ page.title }} </h1> 
+		   
+		      
+               <ul>
+                <li>
+                  
+                 <p class="meta"><span><i class='far fa-calendar-alt' style='font-size:16px ; color:black ;  padding: 10px;'></i></span> Date Published : {{ page.date | date_to_string }} </p>
+                </li>
+                <li>
+                  <p class="meta"><span><i class='fas fa-clock' style='font-size:16px; color:black ;  padding: 10px;'></i></span> Reading Time : {{ page.time }}  </p>
+                </li>
+                <li>
+                  <p class="meta"><span><i class='fas fa-edit' style='font-size:16px; color:black ;  padding:10px; '></i></span> Author : {{ page.author }}  </p>
+                </li>
+		       
+		        <li>
+                  <p class="meta"><span><i class='fas fa-tags' style='font-size:16px; color:black ;  padding:10px; '></i></span> Tags :
+		          {% if page.tags %} 
+  {% for tag in page.tags %}
+    <a href=/CV/blog/tags.html#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+  {% endfor %}
+  {% endif %}</p>
+                </li>
+		      
+              </ul>
+            </div>
+            <div class="article-content">
+               {{ content }}
+              <blockquote class="blockquote">
+                <p class="mb-0"> {{ page.quote }} </p>
+              </blockquote>
+            </div>
+          </div>
+		  
+		  
+		  
+         
+		 
+        </div>
+        <div class="col-md-4">
+ 
+          <div class="widget-sidebar">
+            <h5 class="sidebar-title">Recent Post</h5>
+            <div class="sidebar-content">
+		    <ul class="list-sidebar"   >
+       {% for post in site.posts %}
+    <li><a href="/CV{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+			    
+			    
+  {% endfor %}    
+			    
+			    
+			    
+              </ul>
+            </div>
+          </div>
+        
+          <div class="widget-sidebar widget-tags">
+            <h5 class="sidebar-title">Tags</h5>
+            <div class="sidebar-content">
+              <ul>
+			     <div class="tags-expo">
+
+  <div class="tags-expo-section">
+    {% for tag in site.tags %}
+  <li>  <a href="/CV/blog/tags.html#{{ tag[0] | slugify }}"  >{{ tag[0] }}</a></li>
+    {% endfor %}
+  </div>
+</div>
+			     
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Blog-Single End /-->

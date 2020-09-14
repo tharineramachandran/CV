@@ -1,0 +1,78 @@
+---
+layout: default
+title: Posts
+---
+
+
+  <!--/ Section Blog Star /-->
+  <section id="blog" class="blog-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              {{ page.title }}
+            </h3>
+            <p class="subtitle-a">
+             Here you can find a piece of my little world in every post I have written
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row "  >
+	  	{% for post in site.posts %}
+        <div class="col-md-4 cont"   >
+          <div class="card card-blog ele">
+            <div class="card-img">
+              <a><img src="/CV/img/{{ post.img }}" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category"> {{ post.topic }}</h6>
+	   </div>
+              </div>
+              <h3 class="card-title"><a href="/CV{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+              <p class="card-description">
+                 {{ post.summary }}
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                <a href="#">
+				
+                  <span class="author">{{ post.author }}</span>
+                </a>
+              </div>
+              <div class="post-date">
+                  {{ post.date | date_to_string }}
+              </div>
+            </div>
+          </div>
+        </div>
+         {% endfor %} 
+      
+      </div>
+    </div>
+	 
+<style>
+	.cont {
+	
+	
+	
+	 display: flex; /* equal height of the children */
+	}
+	.ele{
+	 flex: 1; /* additionally, equal width */
+  
+  padding: 1em; 
+	
+	
+	}
+	  </style>
+	  
+	  
+  </section>
+  <!--/ Section Blog End /-->
+

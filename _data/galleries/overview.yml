@@ -1,0 +1,33 @@
+-
+ title: Eyeshadow Looks
+ directory: eyeshadow
+ preview:
+  filename: ewe2.jpg
+  original: ewe2.jpg
+  sizes:
+  - ewe2.jpg
+  - ewe2.jpg
+  - ewe2.jpg
+  thumbnail: ewe2.jpg  
+-
+ title: Asylum Halloween Horror Night 
+ directory: asylum
+ preview: 
+  filename: fotor6.jpg
+  original: fotor6.jpg
+  sizes:
+  - fotor6.jpg
+  - fotor6.jpg
+  - fotor6.jpg
+  thumbnail: fotor6.jpg  
+-
+ title: HomeTeam NS Halloween Horror Night 
+ directory: hometeamns
+ preview: 
+  filename: fotor27.jpg
+  original: fotor27.jpg
+  sizes:
+  - fotor27.jpg
+  - fotor27.jpg
+  - fotor27.jpg
+  thumbnail: fotor27.jpg  

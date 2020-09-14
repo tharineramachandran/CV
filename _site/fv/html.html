@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Example 02</title>
+
+
+</head>
+<body>
+
+<div id="myDiv"></div>
+
+
+
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script>var HTML_FILE_URL = 'txt.txt'; 
+
+$(document).ready(function() {
+    $.get(HTML_FILE_URL, function(data) {
+        var fileDom = $(data);
+     
+            alert(fileDom);
+       
+    });
+});
+ </script>
+</html>

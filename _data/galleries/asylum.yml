@@ -1,0 +1,56 @@
+picture_path: asylum
+preview:
+  filename: fotor4.jpg
+  original: fotor4.jpg
+  sizes:
+  - fotor4.jpg
+  - fotor4.jpg
+  - fotor4.jpg
+  thumbnail: fotor4.jpg
+pictures:
+- filename: fotor6.jpg
+  original: fotor6.jpg
+  sizes:
+  - fotor6.jpg
+  - fotor6.jpg
+  - fotor6.jpg
+  thumbnail: fotor6.jpg
+
+- filename: fotor3.jpg
+  original: fotor3.jpg
+  sizes:
+  - fotor3.jpg
+  - fotor3.jpg
+  - fotor3.jpg
+  thumbnail: fotor3.jpg
+
+- filename: fotor2.jpg
+  original: fotor2.jpg
+  sizes:
+  - fotor2.jpg
+  - fotor2.jpg
+  - fotor2.jpg
+  thumbnail: fotor2.jpg
+- filename: fotor1.jpg
+  original: fotor1.jpg
+  sizes:
+  - fotor1.jpg
+  - fotor1.jpg
+  - fotor1.jpg
+  thumbnail: fotor1.jpg
+
+- filename: fotor5.jpg
+  original: fotor5.jpg
+  sizes:
+  - fotor5.jpg
+  - fotor5.jpg
+  - fotor5.jpg
+  thumbnail: fotor5.jpg
+
+- filename: fotor4.jpg
+  original: fotor4.jpg
+  sizes:
+  - fotor4.jpg
+  - fotor4.jpg
+  - fotor4.jpg
+  thumbnail: fotor4.jpg

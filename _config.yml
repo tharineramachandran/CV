@@ -1,0 +1,23 @@
+theme: jekyll-theme-minimal
+name: Hank Quinlan, Horrible Cop
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+# Site settings
+ 
+description: > # this means to ignore newlines until "baseurl:"
+  This website is an example on how to use my gallery blog post to add a
+  photo gallery to your blog/website.
+baseurl: "/CV" # the subpath of your site, e.g. /blog
+url: "//tharineramachandran.github.io" # the base hostname & protocol for your site
+ 
+# Build settings
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "works"
+    values:
+      permalink: /:path/:basename:output_ext
+
+exclude: [LICENSE-CODE.md, LICENSE-IMAGES, README.md, bower.json]

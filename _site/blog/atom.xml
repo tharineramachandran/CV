@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Hank Quinlan's Blog</title>
+ <link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
+ <link href="http://hankquinlan.github.io/blog"/>
+ <updated>2020-09-14T21:46:33+08:00</updated>
+ <id>http://hankquinlan.github.io/blog</id>
+ <author>
+   <name>Hank Quinlan</name>
+   <email>hankquinlanhub@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Lessons from Bill Gates</title>
+   <link href="http://hankquinlan.github.io/blog/2019/10/20/Bill-Gates"/>
+   <updated>2019-10-20T00:00:00+08:00</updated>
+   <id>http://hankquinlan.github.io//blog/2019/10/20/Bill-Gates</id>
+   <content type="html">&lt;p&gt;William Henry Gates III, famously known as Bill Gates, is an American technology pioneer, business magnate, investor, philanthropist, and humanitarian. The co-founder of Microsoft Corporation has always been my number #1 inspiration, even back in the days when all I had was a home desktop running on Windows XP and a trackball mouse.&lt;/p&gt;
+
+&lt;p&gt;Growing up in a low-income family, we did not have the luxury of an internet connection. Being the sneaky child that I am, I would run to the cybercafe during my free time just to copy-paste articles and blogs to a word document and save it in my pen drive so I could read it during my precious 1 hour “nap time”. Over the years, this small sneaky act soon evolved into a passion and now, here I am pursuing this passion as a full-time student.&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, having just a passion for technology did not help me get where I am today, without some inspiration from the legend himself. Here’s a small list of things that I learned from Bill Gates during my years of watching him through a small screen.&lt;/p&gt;
+
+&lt;p&gt;i. Risks&lt;/p&gt;
+
+&lt;p&gt;The wise man once said, “If you want to win big, you sometimes have to take big risks” and those words always came back to me when I was in a dilemma, whether it was to explore an unfamiliar territory or to stick by my familiar grounds. This quote always reminded me that those who are willing to take big risks achieve big rewards and I always stayed true to that.&lt;/p&gt;
+
+&lt;p&gt;ii.Mistakes&lt;/p&gt;
+
+&lt;p&gt;Sir Bill Gates’s famous quote “It’s fine to celebrate success but it is more important to heed the lessons of failure” always made me rethink the way I respond to failures. I used to think that failure was a negative thing and that there was something wrong on my part, but now I look at it as an opportunity for me to learn and grow from the mistakes I made.&lt;/p&gt;
+
+&lt;p&gt;iii. Learning&lt;/p&gt;
+
+&lt;p&gt;“Your most unhappy customers are your greatest source of learning” is one of the best quotes I have read from Bill Gates. Being an IT student, I found that user feedback is more crucial than the development of websites and applications as they play an important part in the operation of the platform as much as the developers and business owners do.&lt;/p&gt;
+
+&lt;p&gt;In summary, Bill Gates has taught us many valuable lessons to take away on our journey to success, and it starts with something as simple as believing in yourself first.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Lessons from Internet of Things (IoT)</title>
+   <link href="http://hankquinlan.github.io/blog/2019/09/20/IOT-blog"/>
+   <updated>2019-09-20T00:00:00+08:00</updated>
+   <id>http://hankquinlan.github.io//blog/2019/09/20/IOT-blog</id>
+   <content type="html">&lt;p&gt;Internet of Things (IoT) has always been one of my interests since the second semester of my first year in polytechnic, and I had a great time learning it as my elective in my second year. Here, I’ll share what is Internet of Things (IoT) and some lessons I had learned while studying it.&lt;/p&gt;
+
+&lt;p&gt;Internet of Things is defined as the interconnection via the Internet of computing devices embedded in everyday objects, enabling them to send and receive data. Examples of appliances that fall into the scope of Internet of Things include connected security systems, thermostats, cars, electronic appliances, lights in household and commercial environments, alarm clocks, speaker systems and vending machines. IoT helps us to control appliances automatically, that we ordinarily have to manually change. This helps us become more efficient, save our precious time during rush hours and ensures our safety. IoT also helps us to save money and enables us to lead a better quality of life.&lt;/p&gt;
+
+&lt;p&gt;Among the lessons I had learned from studying IoT is not to be afraid of trying something new. I have learned to try new methods and APIs in the process of delivering better service and designing better system architecture. I have also learned to communicate effectively with my teammates and conduct meetings more efficiently when working on projects together.&lt;/p&gt;
+
+&lt;p&gt;Finally, thank you for reading my first ever blog on this website. I hope you have a great day ahead and stay tuned for more content like this!&lt;/p&gt;
+
+&lt;p&gt;With Love, T&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
